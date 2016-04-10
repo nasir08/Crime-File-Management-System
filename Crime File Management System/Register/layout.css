@@ -1,0 +1,75 @@
+ body
+ {
+	 margin:0px;
+	 padding:0px;
+	 font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:white;
+	background-color:white;
+ }
+ #loginHeader
+ {
+	 background-image:url(../images/bg_top.gif);
+	 width:100%;
+	 height:179px;
+ }
+ #banner
+ {
+	 width:100%;
+	 height:110px;
+ }
+ #separator
+ {
+	 height:2px;
+	 width:100%;
+ }
+ a
+ {
+	 text-decoration:none;
+	 color:#5f870e;
+ }
+ #regBox
+ {
+	 border:1px ridge #5f870e;
+	 border-bottom-left-radius:10px;
+	 border-bottom-right-radius:10px;
+	  -moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+    -o-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+	 font-size:15px;
+	 color:black;
+ }
+ #regHeading
+ {
+	 background-color:#5f870e;
+	 color:white;
+ }
+ #loginfooter
+ {
+	 background-image:url(../images/bg_top.gif);
+	 width:100%;
+	 height:30px;
+ }
+ #regBox .txt
+{
+	width:200px;
+    border-radius:5px;
+    border:1px solid #CCC;
+    padding: 5px;
+    font-size:15px;
+    font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+#regBox .btn
+{
+    width: 100px;
+    height: 34px;
+    border: 1px solid #990033;
+    background-color:#990033;
+    font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size:14px;
+    color:white;
+}
+.msg
+{
+    color: #990033;
+}

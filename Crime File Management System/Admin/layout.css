@@ -1,0 +1,184 @@
+body
+ {
+	 margin:0px;
+	 padding:0px;
+	 font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:white;
+	background-color:black;
+ }
+ #loginArea
+ {
+	 width:100%;
+	 height:441px;
+ }
+ #loginHeader
+ {
+	 background-image:url(../images/bg_top.gif);
+	 width:100%;
+	 height:179px;
+ }
+ 
+ #header
+ {
+	 background-image:url(../images/bg_top.gif);
+	 width:100%;
+	 height:179px;
+ }
+ #banner
+ {
+	 width:100%;
+	 height:110px;
+ }
+ #nav
+ {
+	 width:100%;
+	 height:67px;
+ } 
+ .menu
+ {
+    font-size: 12px;
+	 background-color:#000000;
+	 
+ }
+ .menu:hover
+ {
+	 border-top-left-radius:10px;
+	 border-top-right-radius:10px;
+	background-color:#5f870e;
+ }
+ #nav td a
+ {
+	 text-decoration:none;
+	 color:white;
+ }
+ #separator
+ {
+	 height:2px;
+	 width:100%;
+ }
+ a
+ {
+	 text-decoration:none;
+	 color:#5f870e;
+ }
+ #mHeader
+ {
+    background-color:#5f870e;
+ }
+  #footer
+ {
+	 background-image:url(../images/bg_top.gif);
+	 width:100%;
+	 height:30px;
+ }
+ 
+ #loginBox
+ {
+	 background-color:#5f870e;
+	 border:1px ridge #5f870e;
+	 font-size:15px;
+ }
+ #loginfooter
+ {
+	 background-image:url(../images/bg_top.gif);
+	 width:100%;
+	 height:30px;
+ }
+ #loginBox .txt
+{
+    border-radius:5px;
+    border:1px solid #CCC;
+    padding: 5px;
+    font-size:15px;
+    font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+    box-shadow: 1px 1px 5px #CCC;
+}
+
+#loginBox .btn
+{
+    width: 100px;
+    height: 34px;
+    border: 1px solid #990033;
+    background-color:#990033;
+    font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size:14px;
+    color:white;
+}
+.msg
+{
+    color: #5f870e;
+}
+.holder
+{
+    border: 1px solid #CCC;
+}
+
+
+/***** prettyPhot *****/
+.lightbox-image {
+	position:relative;
+	z-index:1;
+	overflow:hidden;
+	display:inline-block;
+	cursor:pointer;
+	}
+	.lightbox-image img {
+		position:relative;
+		z-index:1;
+	}
+	.lightbox-image span {
+		display:inline-block;
+		position:absolute;
+		left:0px;
+		top:0;
+		width:100%;
+		height:100%;
+		background:url(images/magnify.png) no-repeat 50% 50%;
+		z-index:2;
+		padding:0;
+	}
+    #inbox
+    {
+        border: 1px groove #5f870e;
+    }
+	#user_name
+	{overflow:auto;}
+	
+	
+  
+   
+#wrapper{  
+    margin:0 auto;  
+    padding-bottom:25px;  
+    width:500px;
+	height:427px; }   
+   
+#chatbox {
+	padding:10px;  
+    text-align:left;  
+    margin:0 auto;  
+    margin-bottom:5px;  
+    background:white;  
+    height:355px;  
+    width:470px;
+	color:black;  
+    border:1px solid #ccc;  
+    overflow:auto; 
+	font-family:Lucida Grande, Sans-Serif;}  
+   
+#usermsg {  
+    width:429px;
+	height:39px;  
+    border:1px solid #ccc; 
+	background-color:white;
+	color:black;
+	font-family:Lucida Grande, Sans-Serif;}  
+   
+#submitmsg { width: 60px; height:45px; background-color:white color:black; border:1px solid #990033;}    
+   
+#menu {height:44px; color:white; background:#5f870e;}
+
+.sender { font-weight:normal; width:300px; color: white; background: #990033; padding: 4px 8px; margin: 0 5px 0 0; float:left;}
+
+.reciever { font-weight:normal; width:300px; color: white; background: #333; padding: 4px 8px; margin: 0 5px 0 0; float:right;}
